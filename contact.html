@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+
+<body>
+  <h1>Contact</h1>
+  <p>La rororo lal miro</p>
+  <ul>
+    <li>lista ordenada
+      <ol type="I">
+        <li>a1</li>
+        <li>a2</li>
+      </ol>
+    </li>
+    <li>no lista pero en lista</li>
+  </ul>
+</body>
+
+<hr>
+
+<form action="mailto:lala@hoy.com" method="post" enctype="text/plain"> <!-- /action/ es lo que sucede con /submit, se enlasa con js o css, en este caso es un action para mandar un email a X direccon /enctype="text/plain" es como lo del utf-8, esta encodeado en plaintext -->
+  <label for="">Name:</label><br>   <!-- intput type/ es lo importante, hay varios types (texto, sumbmitm numberm calendar, slider, etc... tick box)-->
+  <input type="text" name="yourName" value=""><br> <!-- name=""/ es la etiqueta con la cual se identifica la informacion que se introducio en el input / -->
+  <label for="">Email:</label><br>
+  <input type="email" name="yourEmail" value=""><br> <!-- type=email pone ciertos parametros como que la info introducida en el campo tenga un @ y demas de un emai vaido -->
+  <label for="">Your message:</label><br>
+  <textarea name="yourText" rows="8" cols="80"></textarea><br> <!-- rows y cols es el tamano / -->
+  <input type="submit" name="">
+</form>
+
+</html>
